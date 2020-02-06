@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 
 // ANGULAR MATERIAL IMPORTS
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HeaderComponent } from './HEADER/header/header.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
